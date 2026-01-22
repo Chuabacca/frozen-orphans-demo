@@ -2,12 +2,13 @@
 
 import { motion } from "framer-motion";
 import { Instagram, Facebook, Youtube, Mail } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-[#0A0A0A] border-t border-white/10">
+        <footer className="bg-[#0A0A0A] border-t border-white/10 mt-24">
             <div className="section-container py-16 md:py-20">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
                     {/* Column 1: Logo & Tagline */}
@@ -18,10 +19,13 @@ export default function Footer() {
                         transition={{ duration: 0.6 }}
                     >
                         <div className="flex items-center gap-3 mb-4">
-                            {/* Placeholder logo */}
-                            <div className="w-10 h-10 rounded-full bg-brand flex items-center justify-center text-[#0A0A0A] font-bold text-lg">
-                                FO
-                            </div>
+                            <Image
+                                src="/assets/images/logo.png"
+                                alt="Frozen Orphans"
+                                width={120}
+                                height={44}
+                                className="object-contain"
+                            />
                             <span className="text-white font-semibold text-lg">
                                 Frozen Orphans
                             </span>

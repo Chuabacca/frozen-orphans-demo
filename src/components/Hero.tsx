@@ -21,17 +21,17 @@ export default function Hero() {
                 {/* Fallback gradient background - replace with video/image when available */}
                 <div className="absolute inset-0 bg-gradient-to-br from-[#0A0A0A] via-[#1A1A1A] to-[#0A0A0A]" />
 
-                {/* Uncomment when video is available */}
-                {/* <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          poster="/assets/images/hero-fallback.jpg"
-          className="w-full h-full object-cover"
-        >
-          <source src="/assets/video/hero.mp4" type="video/mp4" />
-        </video> */}
+                {/* Video Background */}
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/assets/images/hero-fallback.jpg"
+                    className="w-full h-full object-cover"
+                >
+                    <source src="/assets/video/hero.mp4" type="video/mp4" />
+                </video>
 
                 {/* Dark overlay for text readability */}
                 <div className="absolute inset-0 bg-black/50" />

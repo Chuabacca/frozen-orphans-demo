@@ -18,17 +18,17 @@ const teamMembers: TeamMember[] = [
     {
         name: "Al Mohler",
         role: "President - Southern Baptist Theological Seminary",
-        image: "/assets/images/team/al-mohler.jpg",
+        image: "/assets/images/team/al-mohler.png",
     },
     {
         name: "Katy Faust",
         role: "Founder - Them Before Us",
-        image: "/assets/images/team/katy-faust.jpg",
+        image: "/assets/images/team/katy-faust.png",
     },
     {
         name: "Dan Nehrbass",
         role: "President - Nightlight Christian Adoptions",
-        image: "/assets/images/team/dan-nehrbass.jpg",
+        image: "/assets/images/team/dan-nehrbass.png",
     },
 ];
 
@@ -87,22 +87,12 @@ export default function Team() {
                         >
                             {/* Headshot */}
                             <div className="relative w-40 h-40 md:w-48 md:h-48 mx-auto mb-4 rounded-full overflow-hidden bg-slate">
-                                {/* Placeholder - replace with actual images */}
-                                <div className="absolute inset-0 bg-gradient-to-br from-brand/20 to-slate flex items-center justify-center">
-                                    <span className="text-2xl font-bold text-white/40">
-                                        {member.name
-                                            .split(" ")
-                                            .map((n) => n[0])
-                                            .join("")}
-                                    </span>
-                                </div>
-                                {/* Uncomment when images are available */}
-                                {/* <Image
-                  src={member.image}
-                  alt={member.name}
-                  fill
-                  className="object-cover"
-                /> */}
+                                <Image
+                                    src={member.image}
+                                    alt={member.name}
+                                    fill
+                                    className="object-cover"
+                                />
                             </div>
 
                             {/* Name */}

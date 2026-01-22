@@ -77,19 +77,12 @@ export default function MediaCarousel() {
                                 className="flex-none w-[85%] sm:w-[70%] md:w-[50%] lg:w-[40%] pl-4"
                             >
                                 <div className="relative aspect-video rounded-xl overflow-hidden bg-slate">
-                                    {/* Placeholder - replace with actual images */}
-                                    <div className="absolute inset-0 bg-gradient-to-br from-brand/20 to-slate flex items-center justify-center">
-                                        <span className="text-2xl font-bold text-white/30">
-                                            {index + 1}
-                                        </span>
-                                    </div>
-                                    {/* Uncomment when images are available */}
-                                    {/* <Image
-                    src={image.src}
-                    alt={image.alt}
-                    fill
-                    className="object-cover"
-                  /> */}
+                                    <Image
+                                        src={image.src}
+                                        alt={image.alt}
+                                        fill
+                                        className="object-cover"
+                                    />
                                 </div>
                             </div>
                         ))}
@@ -121,8 +114,8 @@ export default function MediaCarousel() {
                             key={index}
                             onClick={() => emblaApi?.scrollTo(index)}
                             className={`w-2.5 h-2.5 rounded-full transition-all duration-200 ${index === selectedIndex
-                                    ? "bg-brand w-8"
-                                    : "bg-white/30 hover:bg-white/50"
+                                ? "bg-brand w-8"
+                                : "bg-white/30 hover:bg-white/50"
                                 }`}
                             aria-label={`Go to slide ${index + 1}`}
                         />

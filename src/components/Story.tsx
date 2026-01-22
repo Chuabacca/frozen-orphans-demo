@@ -26,7 +26,7 @@ const protagonists: Protagonist[] = [
         name: "Ericka Andersen",
         description:
             "An IVF mom now warns against it as she seeks life-affirming choices for her remaining embryos.",
-        image: "/assets/images/protagonists/ericka-andersen.jpg",
+        image: "/assets/images/protagonists/ericka-andersen.png",
     },
 ];
 
@@ -85,22 +85,12 @@ export default function Story() {
                         >
                             {/* Circle Portrait */}
                             <div className="relative w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 mx-auto mb-6 rounded-full overflow-hidden bg-slate transition-transform duration-300 group-hover:scale-105">
-                                {/* Placeholder gradient - replace with actual images */}
-                                <div className="absolute inset-0 bg-gradient-to-br from-brand/30 to-slate flex items-center justify-center">
-                                    <span className="text-4xl font-bold text-white/40">
-                                        {protagonist.name
-                                            .split(" ")
-                                            .map((n) => n[0])
-                                            .join("")}
-                                    </span>
-                                </div>
-                                {/* Uncomment when images are available */}
-                                {/* <Image
-                  src={protagonist.image}
-                  alt={protagonist.name}
-                  fill
-                  className="object-cover"
-                /> */}
+                                <Image
+                                    src={protagonist.image}
+                                    alt={protagonist.name}
+                                    fill
+                                    className="object-cover"
+                                />
                             </div>
 
                             {/* Name */}
