@@ -8,8 +8,8 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-[#0A0A0A] border-t border-white/10 mt-24">
-            <div className="section-container py-16 md:py-20">
+        <footer className="bg-[#0A0A0A] border-t border-white/10">
+            <div className="section-container pt-6 pb-16 md:pt-10 md:pb-20">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
                     {/* Column 1: Logo & Tagline */}
                     <motion.div
