@@ -12,22 +12,22 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
     {
         name: "Emma Waters",
-        role: "Policy Analyst - Heritage Foundation",
+        role: "Policy Analyst | Heritage Foundation",
         image: "/frozen-orphans-demo/assets/images/team/emma-waters.jpg",
     },
     {
         name: "Al Mohler",
-        role: "President - Southern Baptist Theological Seminary",
+        role: "President | Southern Baptist Theological Seminary",
         image: "/frozen-orphans-demo/assets/images/team/al-mohler.png",
     },
     {
         name: "Katy Faust",
-        role: "Founder - Them Before Us",
+        role: "Founder | Them Before Us",
         image: "/frozen-orphans-demo/assets/images/team/katy-faust.png",
     },
     {
         name: "Dan Nehrbass",
-        role: "President - Nightlight Christian Adoptions",
+        role: "President | Nightlight Christian Adoptions",
         image: "/frozen-orphans-demo/assets/images/team/dan-nehrbass.png",
     },
 ];
