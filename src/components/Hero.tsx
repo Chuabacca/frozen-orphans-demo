@@ -19,7 +19,7 @@ export default function Hero() {
             {/* Video Background with Fallback */}
             <div className="absolute inset-0 z-0">
                 {/* Fallback gradient background - replace with video/image when available */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#0A0A0A] via-[#1A1A1A] to-[#0A0A0A]" />
+                {/* <div className="absolute inset-0 bg-gradient-to-br from-[#0A0A0A] via-[#1A1A1A] to-[#0A0A0A]" /> */}
 
                 {/* Video Background */}
                 <video
