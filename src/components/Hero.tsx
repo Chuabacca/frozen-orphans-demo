@@ -27,10 +27,10 @@ export default function Hero() {
                     loop
                     muted
                     playsInline
-                    poster="/assets/images/hero-fallback.jpg"
+                    poster="/frozen-orphans-demo/assets/images/hero-fallback.jpg"
                     className="w-full h-full object-cover"
                 >
-                    <source src="/assets/video/hero.mp4" type="video/mp4" />
+                    <source src="/frozen-orphans-demo/assets/video/hero.mp4" type="video/mp4" />
                 </video>
 
                 {/* Dark overlay for text readability */}

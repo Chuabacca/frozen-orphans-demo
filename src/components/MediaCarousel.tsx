@@ -8,11 +8,11 @@ import Image from "next/image";
 
 // Placeholder images - replace with actual carousel images
 const carouselImages = [
-    { src: "/assets/images/carousel/project-1-1.jpg", alt: "Behind the scenes 1" },
-    { src: "/assets/images/carousel/project-1-2.jpg", alt: "Behind the scenes 2" },
-    { src: "/assets/images/carousel/project-1-3.jpg", alt: "Behind the scenes 3" },
-    { src: "/assets/images/carousel/project-1-4.jpg", alt: "Behind the scenes 4" },
-    { src: "/assets/images/carousel/project-1-5.jpg", alt: "Behind the scenes 5" },
+    { src: "/frozen-orphans-demo/assets/images/carousel/project-1-1.jpg", alt: "Behind the scenes 1" },
+    { src: "/frozen-orphans-demo/assets/images/carousel/project-1-2.jpg", alt: "Behind the scenes 2" },
+    { src: "/frozen-orphans-demo/assets/images/carousel/project-1-3.jpg", alt: "Behind the scenes 3" },
+    { src: "/frozen-orphans-demo/assets/images/carousel/project-1-4.jpg", alt: "Behind the scenes 4" },
+    { src: "/frozen-orphans-demo/assets/images/carousel/project-1-5.jpg", alt: "Behind the scenes 5" },
 ];
 
 export default function MediaCarousel() {

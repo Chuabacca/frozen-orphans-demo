@@ -14,19 +14,19 @@ const protagonists: Protagonist[] = [
         name: "Marlene Strege",
         description:
             "A determined mom pioneers the first embryo adoption as the US debates stem cell research.",
-        image: "/assets/images/protagonists/marlene-strege.jpg",
+        image: "/frozen-orphans-demo/assets/images/protagonists/marlene-strege.jpg",
     },
     {
         name: "Kirsten Upadhye",
         description:
             "A foster mom struggling with infertility navigates the hope and heartbreak of adoption.",
-        image: "/assets/images/protagonists/kirsten-upadhye.jpg",
+        image: "/frozen-orphans-demo/assets/images/protagonists/kirsten-upadhye.jpg",
     },
     {
         name: "Ericka Andersen",
         description:
             "An IVF mom now warns against it as she seeks life-affirming choices for her remaining embryos.",
-        image: "/assets/images/protagonists/ericka-andersen.png",
+        image: "/frozen-orphans-demo/assets/images/protagonists/ericka-andersen.png",
     },
 ];
 

@@ -13,22 +13,22 @@ const teamMembers: TeamMember[] = [
     {
         name: "Emma Waters",
         role: "Policy Analyst - Heritage Foundation",
-        image: "/assets/images/team/emma-waters.jpg",
+        image: "/frozen-orphans-demo/assets/images/team/emma-waters.jpg",
     },
     {
         name: "Al Mohler",
         role: "President - Southern Baptist Theological Seminary",
-        image: "/assets/images/team/al-mohler.png",
+        image: "/frozen-orphans-demo/assets/images/team/al-mohler.png",
     },
     {
         name: "Katy Faust",
         role: "Founder - Them Before Us",
-        image: "/assets/images/team/katy-faust.png",
+        image: "/frozen-orphans-demo/assets/images/team/katy-faust.png",
     },
     {
         name: "Dan Nehrbass",
         role: "President - Nightlight Christian Adoptions",
-        image: "/assets/images/team/dan-nehrbass.png",
+        image: "/frozen-orphans-demo/assets/images/team/dan-nehrbass.png",
     },
 ];
 

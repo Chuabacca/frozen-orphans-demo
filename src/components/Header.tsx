@@ -41,7 +41,7 @@ export default function Header() {
             className="flex items-center group"
           >
             <Image
-              src="/assets/images/logo.png"
+              src="/frozen-orphans-demo/assets/images/logo.png"
               alt="Frozen Orphans"
               width={120}
               height={44}
