@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // basePath: "/frozen-orphans-demo", // Uncomment and update if deploying to a subdirectory
+  basePath: "/frozen-orphans-demo", // Uncomment and update if deploying to a subdirectory
 };
 
 export default nextConfig;
