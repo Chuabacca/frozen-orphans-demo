@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors - Frozen Orphans Design System */
+  --brand-primary: #ADD8E6;
+  --cinematic-dark: #0A0A0A;
+  --charcoal: #1A1A1A;
+  --slate: #2D2D2D;
+  --off-white: #F5F5F5;
+  --white: #FFFFFF;
+  
+  /* Semantic aliases */
+  --background: var(--cinematic-dark);
+  --foreground: var(--white);
+  --muted: var(--slate);
+  --muted-foreground: #A0A0A0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--brand-primary);
+  --color-charcoal: var(--charcoal);
+  --color-slate: var(--slate);
+  --color-off-white: var(--off-white);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --font-sans: var(--font-inter);
+}
+
+/* Smooth scrolling with reduced motion respect */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--charcoal);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--slate);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
+
+/* Utility classes */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-container {
+    padding: 0 2rem;
+  }
+}
